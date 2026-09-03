@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Jan Dev</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="modo-foco">
+    <main class="pomodoro-container">
+        <header>
+            <h1>Pomodoro<span>Dev</span></h1>
+            <p id="status-texto">Hora de focar!</p>
+        </header>
+
+        <section class="timer-display">
+            <time id="cronometro">25:00</time>
+        </section>
+
+        <section class="controles">
+            <button id="btn-iniciar" class="btn">Iniciar</button>
+            <button id="btn-pausar" class="btn oclto">Pausar</button>
+            <button id="btn-resetar" class="btn">Resetar</button>
+        </section>
+    
+        
+        <footer class="painel-conquistas">
+            <div class="xp-container">
+                <span>Nível <strong id="nivel-usuario">1</strong></span>
+                    <div class="barra-xp">
+                        <div id="progresso-xp" style="width: 0%;"></div>
+                    </div>
+                    <span><span id="xp-atual">0</span>/100 XP</span>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
