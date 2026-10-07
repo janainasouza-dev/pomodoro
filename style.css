@@ -41,7 +41,7 @@ body.modo-descanso {
 
 .app-header h1 span {
     font-weight: 300;
-    opacity 0.8;
+    opacity: 0.8;
 }
 
 #status-texto {
